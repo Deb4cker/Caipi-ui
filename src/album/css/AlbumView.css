@@ -1,0 +1,58 @@
+.album-view {
+    background-color: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .album-view button {
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .album-view img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .album-view h2 {
+    margin: 10px 0;
+  }
+  
+  .album-view p {
+    margin: 5px 0;
+  }
+  
+  .album-view ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .add-track-button {
+    width: 20%;
+  }
+
+  .track-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+  }
+  
+  .album-view li {
+    margin: 5px 0;
+  }
